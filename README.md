@@ -20,6 +20,14 @@ The table below lists the hardware used to gather data. Furthermore, details abo
 
 # Quick results:
 
+### Best Algorithms using the Analytical Model
+| Data    | Compression | Decompression | Ratio    |
+|---------|-------------|---------------|----------|
+| Bool    | ANS         | ZLIB          | FastLZMA |
+| Float   | Cascaded    | Cascaded      | FastLZMA |
+| Integer | Bitcomp     | Cascaded      | FastLZMA |
+| String  | Bitcomp     | ANS           | ANS      |
+
 ### Compression Ratio 
 ![Compression Ratio results](/Charts/General_CR_chart.png)
 
